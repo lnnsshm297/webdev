@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"><!--stores the meta headset thats being used-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>⚡Harika's Personal Site⚡</title>
+        <p>the title has been put in the head tag, we use title tag for it and coming to the body tag</p>
+	</head>
+
+	<body>
+        <hr>
+        <img src="p3.jpg">
+		<h1>Harika Mahapatra 💖</h1>
+
+        <em>computer science student,</em>
+        <p>currently learning <strong>web development</strong> from udemy's bootcamp.</p>
+        <hr>
+        <h3>This is a Heading</h3>
+        
+            <h4>emphasis vs italicized</h4>
+            <ol><em>computer science student,</em>
+                <i> computer science student</i></ol>
+            
+            <p>a normal paragraph looks like this and </p>
+        <ol>
+            <strong>this is a strong tag but not bold tag</strong>
+        
+            <b>and this is a bold tag, ofcourse the difference is subtle.</b>
+        </ol>
+        <hr>
+        <h3>HTML Lists</h3>
+        <p>ul, unordered list tag is used and inside we use the li, list item tag</p>
+        <ul>
+            <li>unordered list item1</li>
+            <li>unordered list item2</li>
+            <li>unordered list item3</li> 
+        </ul>
+        <p>This is an ordered list ol and let us list some li-list items: hobbies as an example</p>
+        <ol>
+            <li>Photography</li>
+            <li>Skteching</li>
+            <li>Listening to Music</li>
+            <li>Watching anime</li>
+        </ol>
+        <p>using type="i" gives us roman numerals for the ordered list</p>
+        <p>we can also use start="4" to start numbering from that particular element</p>
+        <ol type="i" start="4">
+            <li>foo</li>
+            <li>bar</li>
+        </ol>
+        <hr>
+        <h3>HTML Image Element</h3>
+        <img src="p2.jpg">
+        <h3>hyperlinks and anchor tags</h3>
+        <a href="https://www.google.com/">links to the google home page</a>
+    <br>
+    <a href="https://vsco.co/lnnsshm7/gallery">I click pictures of basically everything.</a>
+    <br>
+    <a href="contact.html">click here for contact information</a>
+    <br>
+    <hr>
+    <h3>Tables in HTML</h3>
+    <p>i dont really have any industry experience </p>
+    <p>but I'm going to use these for now</p>
+    <table style="width: 70%;">
+        <tr>
+            <th>company</th>
+            <th>position</th>
+            <th>timeline</th>
+        </tr>
+        <tr>
+            <td>NASSCOM</td>
+            <td>SalesForce Developer</td>
+           
+            <td> December - January'23 </td>
+        </tr>
+        <tr>
+            <td>The Sparks Foundation</td>
+            <td>Data Analytics GRIP Intern </td>
+            
+            <td>October '22 - January'23 </td>
+        </tr>
+        <tr>
+            <td>Aashmaan Foundation</td>
+            <td>Web Content Writer </td>
+           
+            <td> Feb - May'22 </td>
+        </tr>
+        
+    </table>
+    <h4>another table</h4><p>the table border is no longer used but-</p>
+    <table border="1" style="width:max-content">
+        <thead>
+            <tr>
+                <th><!--table header cell-->
+                    table header 1
+                </th>
+                <th><!--table header cell-->
+                    table header 2
+                </th>
+                <th><!--table header cell-->
+                    table header 3
+                </th>
+                
+            </tr>
+        </thead>
+        <tbody>
+      
+            <tr><!--table row and this is a single row, use it multiple times to create multiple rows-->
+                <td>column1</td><!--each cell data-->
+                <td>column2</td>
+                <td>column3</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>	
+        </table>
+        <h3>USING TABLES TO STRUCTURE HTML ELEMENTS</h3>
+        <table cellspacing="20">
+            <tr>
+                <td> <img src="hari.jpg"></td>
+                <td><h1>Harika Mahapatra</h1>
+                    <p><em>a compsci enthusiast</em></p>
+                    <p>I love coffee and capturing <strong><a href="https://vsco.co/lnnsshm7/gallery"  target="_blank" rel="noopener noreferrer">moments</a></strong></p>
+                    <p>currently learning web development from udemy's bootcamp.</p></td>
+            </tr>
+        </table><h3>Skills</h3>
+        <table cellspacing="15">
+            <tr>
+                <td>Web Development</td>
+                <td>⭐⭐⭐(ooh I'm loving this)</td>
+            </tr>
+            <tr>
+                <td>Web dev is too cute </td>
+                <td>⭐⭐⭐⭐⭐(five stars for being a fun thing)</td>
+            </tr>
+        </table>
+        <br><hr>
+        <p>but using html to layout the data is not a great idea, for context look at this-</p>
+        <p>nested tables are alot to construct.</p>
+        <table>
+
+            <tr>
+                <td>
+                    <table cellspacing="15">
+                        <tr>
+                            <td>Web Development</td>
+                            <td>⭐⭐⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>App Development</td>
+                            <td>⭐⭐</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    
+                    <table cellspacing="15">
+                        <tr>
+                            <td>Machine Learning</td>
+                            <td>⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>Algorithms</td>
+                            <td>⭐⭐⭐</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+       <br><hr>
+       <h3>HTML FORMS</h3>
+       <p>even though we need javascript to get the full functionality of the form, we can still structure it using html</p>
+       <a href="contact.html">click here to view a form in contact page.</a>
+
+</body>
+</html>
